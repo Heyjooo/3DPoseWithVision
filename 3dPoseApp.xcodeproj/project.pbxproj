@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		2A48C0342C100FEC000714F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C0332C100FEC000714F1 /* AppDelegate.swift */; };
 		2A48C0362C100FEC000714F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C0352C100FEC000714F1 /* SceneDelegate.swift */; };
-		2A48C0382C100FEC000714F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C0372C100FEC000714F1 /* ViewController.swift */; };
-		2A48C03B2C100FEC000714F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A48C0392C100FEC000714F1 /* Main.storyboard */; };
 		2A48C03D2C100FED000714F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A48C03C2C100FED000714F1 /* Assets.xcassets */; };
 		2A48C0402C100FED000714F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A48C03E2C100FED000714F1 /* LaunchScreen.storyboard */; };
+		2A48C0482C101025000714F1 /* HumanBodyPose3DDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C0472C101025000714F1 /* HumanBodyPose3DDetector.swift */; };
+		2A48C04A2C10109D000714F1 /* HumanBodyPoseImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C0492C10109D000714F1 /* HumanBodyPoseImageModel.swift */; };
+		2A48C04D2C10119C000714F1 /* HumanBodySkeletonRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C04C2C10119C000714F1 /* HumanBodySkeletonRenderer.swift */; };
+		2A48C0562C10277A000714F1 /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48C0552C10277A000714F1 /* PhotoSelectorViewController.swift */; };
+		2AAC82642C10467100FDAF58 /* SkeletonSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAC82632C10467100FDAF58 /* SkeletonSceneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A48C0302C100FEC000714F1 /* 3dPoseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3dPoseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A48C0332C100FEC000714F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A48C0352C100FEC000714F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2A48C0372C100FEC000714F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2A48C03A2C100FEC000714F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A48C03C2C100FED000714F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A48C03F2C100FED000714F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A48C0412C100FED000714F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A48C0472C101025000714F1 /* HumanBodyPose3DDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanBodyPose3DDetector.swift; sourceTree = "<group>"; };
+		2A48C0492C10109D000714F1 /* HumanBodyPoseImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanBodyPoseImageModel.swift; sourceTree = "<group>"; };
+		2A48C04C2C10119C000714F1 /* HumanBodySkeletonRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanBodySkeletonRenderer.swift; sourceTree = "<group>"; };
+		2A48C0552C10277A000714F1 /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
+		2AAC82632C10467100FDAF58 /* SkeletonSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonSceneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +64,40 @@
 			children = (
 				2A48C0332C100FEC000714F1 /* AppDelegate.swift */,
 				2A48C0352C100FEC000714F1 /* SceneDelegate.swift */,
-				2A48C0372C100FEC000714F1 /* ViewController.swift */,
-				2A48C0392C100FEC000714F1 /* Main.storyboard */,
+				2A48C04E2C1011B0000714F1 /* Models */,
+				2A48C04B2C101193000714F1 /* Views */,
+				2A48C0592C1027A6000714F1 /* VC */,
 				2A48C03C2C100FED000714F1 /* Assets.xcassets */,
 				2A48C03E2C100FED000714F1 /* LaunchScreen.storyboard */,
 				2A48C0412C100FED000714F1 /* Info.plist */,
 			);
 			path = 3dPoseApp;
+			sourceTree = "<group>";
+		};
+		2A48C04B2C101193000714F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A48C04C2C10119C000714F1 /* HumanBodySkeletonRenderer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A48C04E2C1011B0000714F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A48C0492C10109D000714F1 /* HumanBodyPoseImageModel.swift */,
+				2A48C0472C101025000714F1 /* HumanBodyPose3DDetector.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A48C0592C1027A6000714F1 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2A48C0552C10277A000714F1 /* PhotoSelectorViewController.swift */,
+				2AAC82632C10467100FDAF58 /* SkeletonSceneViewController.swift */,
+			);
+			path = VC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +160,6 @@
 			files = (
 				2A48C0402C100FED000714F1 /* LaunchScreen.storyboard in Resources */,
 				2A48C03D2C100FED000714F1 /* Assets.xcassets in Resources */,
-				2A48C03B2C100FEC000714F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A48C0382C100FEC000714F1 /* ViewController.swift in Sources */,
+				2A48C04A2C10109D000714F1 /* HumanBodyPoseImageModel.swift in Sources */,
+				2A48C04D2C10119C000714F1 /* HumanBodySkeletonRenderer.swift in Sources */,
+				2AAC82642C10467100FDAF58 /* SkeletonSceneViewController.swift in Sources */,
 				2A48C0342C100FEC000714F1 /* AppDelegate.swift in Sources */,
 				2A48C0362C100FEC000714F1 /* SceneDelegate.swift in Sources */,
+				2A48C0562C10277A000714F1 /* PhotoSelectorViewController.swift in Sources */,
+				2A48C0482C101025000714F1 /* HumanBodyPose3DDetector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2A48C0392C100FEC000714F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A48C03A2C100FEC000714F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2A48C03E2C100FED000714F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,12 +320,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 349HWJV2J8;
+				DEVELOPMENT_TEAM = 4B47QL89TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 3dPoseApp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to photos to run vision request";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,12 +348,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 349HWJV2J8;
+				DEVELOPMENT_TEAM = 4B47QL89TQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 3dPoseApp/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to photos to run vision request";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
